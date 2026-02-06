@@ -1,0 +1,7 @@
+min-lux 0.0
+max-lux 3000.0
+alpha 1.0
+gamma 2.2
+min-brightness 3.0
+slew-rate 4.0
+target-threshold 1.0

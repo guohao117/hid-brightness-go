@@ -1,0 +1,46 @@
+# Binaries and executables
+bin/
+build/
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.exp
+*.pdb
+
+# Go
+vendor/
+go.sum
+# pkg/  <-- Removed this to allow pkg contents
+*.test
+*.prof
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+CMakeConfigureLog.yaml
+CMakeCXXCompiler.cmake
+CMakeRCCompiler.cmake
+CMakeSystem.cmake
+generate.stamp
+generate.stamp.depend
+generate.stamp.list
+InstallScripts.json
+TargetDirectories.txt
+VCTargetsPath.txt
+*.vcxproj
+*.vcxproj.filters
+*.sln
+*.dir/
+*.recipe
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
